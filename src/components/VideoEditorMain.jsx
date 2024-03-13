@@ -11,7 +11,7 @@ import VideoPlayer from "./VideoPlayer";
 import MultiRangeSlider from "./MultiRangeSlider";
 import VideoConversionButton from "./VideoConversionButton";
 import { sliderValueToVideoTime } from "../utils/utils";
-import { FormatTime } from "../utils/FormatTime";
+import { FormatTime } from "../utils/FormatTime.js";
 import useDeviceType from "./useDeviceType";
 
 const ffmpeg = createFFmpeg({ log: true });
